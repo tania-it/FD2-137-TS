@@ -32,4 +32,7 @@ module.exports = {
             scriptLoading: 'defer',
         }),
     ],
+    devServer: {
+        port: 8181,
+    }
 };

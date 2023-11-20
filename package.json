@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "start": "npx webpack serve --mode=development",
+    "build": "npx webpack --mode=production"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
